@@ -1,0 +1,17 @@
+Working with Algolia.
+library=Mongoose-algolia
+1.Save the schema/data which you want to be searched into th algolia-container.
+	on the gig.js:
+-require mongoose-algolia
+-copy the code of algolia from theit github repo into your page
+
+
+In SHORT:
+ALL THE DATA INSIDE ALGOLIA IS INDEXED.IE SEARCHABLE.
+SO YOU NEED TO PUSH YOUR DATA INTO THE ALGOLIA CONTAINER.
+MENTION TH DATA YOU WANT TO PUT IN ALGOLIA
+MENTION THE FIELDS YOU WANT OT BE SEARCHABLE
+FROM NOW,ALL YOUR DATA WILL BE SYNCED WITH ALGOLIA 
+
+
+NOTE:GOOGLE METAPHONE IN GOOGLE

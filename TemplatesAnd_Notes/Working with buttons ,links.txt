@@ -1,0 +1,4 @@
+buttons ,links href wr=ork similar to routings.
+so assign href="routing url " not html/hbs page
+ie..home buto-> 1.Wrong=buttons href="home.hbs"
+		2.Right=buttons href="/"

@@ -1,0 +1,61 @@
+npm init-initialize package.json file
+npminstall->loaddependencies in package.json and install in node-modules
+packagejson-lock?->
+
+In the server.js:
+1.Require all the libraries
+2.Write the middlewares
+
+require===import
+
+express=framework library so that we can do routung and http methods
+body-parser=teaches nodejs how to read data from form
+morgan= www.facebok.com ===GET facebook.com
+request= library to fetch API
+
+
+Middlewares is like middleman.It enables libraries to pass through.
+How to use Middlewares?
+app.use()
+
+Node server.js->nodemon server.js
+
+
+function(err){if(err)....}
+function(req,res){}
+function(req,res,next){}
+RES:
+
+Serve json data:
+respond with json data...res.json()
+
+Serve Webpage:
+res.render('layouts/index.hbs')
+
+//Adding Templating Engine:
+Handlebars HTML-escapes values returned
+by a {{expression}}. If you don't want
+Handlebars to escape a value, use the 
+"triple-stash", {{{.
+
+
+//Adding Bootstrap
+Use middleware 
+app.use(express.static(__dirname + '/public'));
+Public is folder here that will contain css and js (static files)
+Forbootstrap,get its css cdn file.
+
+//Router
+is like a suburl of a url
+behaves similar to app.js
+
+
+//Exporting
+module.exports=router;
+Export everything to mai server.js
+
+and then in server.js file,use its
+middleware->const mainRoutes=require('./routes/main');
+
+making schema is like making template
+making model is like making solmethingout of that schema
